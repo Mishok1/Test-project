@@ -57,5 +57,9 @@
     "stylelint": "16.2.1",
     "stylelint-config-htmlacademy": "4.0.5",
     "w3c-html-validator": "1.6.4"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "swiper": "^11.0.6"
   }
 }
