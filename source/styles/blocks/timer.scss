@@ -1,11 +1,10 @@
 .timer {
-  color: #DA010A;
-  font-family: "Futura 400";
+  color: #da010a;
+  font-family: "Futura 400", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 15px;
   text-align: center;
-  color: rgba(190, 6, 0, 1);
   text-transform: uppercase;
   margin-bottom: 9px;
 }
@@ -22,8 +21,8 @@
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
-  color: azure;
-  background: #DA010A linear-gradient(180deg, #FF8280 0%, rgba(255, 255, 255, 0) 100%);
+  color: #ffffff;
+  background: #da010a linear-gradient(180deg, #ff8280 0%, rgba(255, 255, 255, 0) 100%);
   border-radius: 5px;
   padding: 0 4px;
 }

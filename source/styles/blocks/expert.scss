@@ -1,7 +1,7 @@
 .expert {
   background-color: #ffffff;
-  color: #312A7C;
-  padding: 37px 0 20px 0;
+  color: #312a7c;
+  padding: 37px 0 20px;
 }
 
 .expert__title {
@@ -21,7 +21,7 @@
 
   &::before {
     content: "";
-    background-color: rgba(255, 49, 49, 0.502);
+    background-color: rgba(255, 49, 49, 0.5);
     width: 216px;
     height: 216px;
     border-radius: 50%;

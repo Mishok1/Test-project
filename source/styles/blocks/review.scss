@@ -1,7 +1,7 @@
 .review {
   background-color: #ffffff;
   height: 527px;
-  font-family: "Futura 400";
+  font-family: "Futura 400", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 23px;
@@ -23,12 +23,12 @@
 
 .review__title {
   margin: 0;
-  font-family: "Futura 600";
+  font-family: "Futura 600", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 18px;
   text-align: left;
-  color: #232E72;
+  color: #232e72;
   grid-column: 2 / 3;
 }
 

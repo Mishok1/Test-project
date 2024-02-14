@@ -1,38 +1,23 @@
 .about {
-  background-color: #B9DFFF;
+  background-color: #b9dfff;
   line-height: 23px;
 }
 
 .about__slogan {
-  font-family: "Futura 600";
+  font-family: "Futura 600", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
-  color: #232E72;
+  color: #232e72;
   text-align: center;
 }
 
 .about__important {
-  font-family: "Futura 600";
+  font-family: "Futura 600", sans-serif;
   font-size: 64px;
   line-height: 82px;
-  color: #FF3131;
-  // text-shadow: 0px 0px #ffffff;
-  // box-shadow: 0px 4px 4px 0px #00000040;
-
-  // &::before {
-  //   content: "16 000";
-  //   // display: block;
-  //   font-size: 66px;
-  //   position: absolute;
-  //   color: #ffffff;
-  // }
-
+  color: #ff3131;
 }
-
-// :nth-of-type(2) {
-//   text-align: center;
-// }
 
 .about__text {
   margin: 0;
@@ -48,5 +33,3 @@
   flex-direction: column;
   row-gap: 190px;
 }
-
-
