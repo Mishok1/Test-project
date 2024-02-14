@@ -1,0 +1,38 @@
+.ingredients {
+  background: linear-gradient(0deg, #232E72 0%, #3A5CFD 100%),
+    linear-gradient(0deg, #FFC600, #FFC600);
+  color: #FFFFFF;
+  width: 275px;
+  min-height: 368px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.ingredients__image {
+  border-radius: 50%;
+  margin-top: -50%;
+  margin-bottom: 30px;
+  width: 297px;
+  height: 297px;
+}
+
+.ingredients__title {
+  font-family: "Futura 600", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.ingredients__text {
+  margin: 0;
+  padding: 0 15px 20px 12px;
+}

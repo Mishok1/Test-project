@@ -1,0 +1,32 @@
+.how-it-works {
+  background-color: #B9DFFF;
+  color: #495A95;
+  padding: 45px 0 37px 0;
+}
+
+.how-it-works__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.how-it-works__title {
+  margin-bottom: 30px;
+}
+
+.how-it-works__text {
+  margin: 0;
+  display: flex;
+  column-gap: 10px;
+
+  &::before {
+    content: "";
+    width: 24px;
+    height: 22px;
+    background: url("../../images/icons/heart.svg") no-repeat center;
+    flex-shrink: 0;
+  }
+}

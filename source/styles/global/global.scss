@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Futura 450";
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 450;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+// br {
+//   @media (min-width: variables.$tablet-width) {
+//     display: none;
+//   }
+// }

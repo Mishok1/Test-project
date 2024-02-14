@@ -1,0 +1,97 @@
+.promotion {
+  background-color: #50AAF6;
+  color: #232E72;
+  border: 1px dashed #FFFFFF;
+  padding: 16px 12px 27px;
+  font-family: "Futura 600", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  width: 283px;
+  height: 429px;
+  box-shadow: 0px 4px 20px 0px #00000040;
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.promotion__slogan {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.promotion__icons {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.promotion__price {
+  display: grid;
+  grid-template-columns: auto 1px auto;
+  grid-template-rows: 1fr;
+  align-items: center;
+  margin-bottom: 19px;
+
+  &::before {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.2);
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    height: 89px;
+    width: 1px;
+  }
+}
+
+.promotion__old-price {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.promotion__new-price {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.promotion__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.promotion__input {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 8px 17px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 42px;
+  width: 100%;
+
+
+  &::placeholder {
+    font-family: "Futura 400";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #A3A3A3;
+  }
+}
+
+.promotion__button {
+  margin: 0;
+  margin-top: 10px;
+  font-family: "Futura 700", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  width: 237px;
+  height: 61px;
+  background-color: #232E72;
+  border-radius: 95px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  cursor: pointer;
+}
