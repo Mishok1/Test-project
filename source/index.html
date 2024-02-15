@@ -292,20 +292,17 @@
         <article class="reviews__promotion promotion">
           <h2 class="visually-hidden">Акция</h2>
           <p class="promotion__slogan">До конца акции в 50% осталось:</p>
-          <div class="promotion__timer timer">
+          <div class="promotion__timer timer" id="clockdiv">
             <span class="hour">
-              <span class="num hour0">0</span>
-              <span class="num hour1">0</span>
+              <span class="num hour0 hours" id="hours">0</span>
             </span>
             <span class="timer-dot">:</span>
             <span class="minute">
-              <span class="num min0">0</span>
-              <span class="num min1">0</span>
+              <span class="num min0 minutes" id="minutes">0</span>
             </span>
             <span class="timer-dot">:</span>
             <span class="second">
-              <span class="num sec0">0</span>
-              <span class="num sec1">0</span>
+              <span class="num sec0 seconds" id="seconds">0</span>
             </span>
             <div class="timer-description">
               <span class="timer-text">часов</span>
@@ -313,6 +310,20 @@
               <span class="timer-text">СЕКУНД</span>
             </div>
           </div>
+          <!-- <div >
+            <div>
+              <span class="hours" ></span>
+              <div class="smalltext">Hours</div>
+            </div>
+            <div>
+              <span class="minutes" ></span>
+              <div class="smalltext">Minutes</div>
+            </div>
+            <div>
+              <span class="seconds" ></span>
+              <div class="smalltext">Seconds</div>
+            </div>
+          </div> -->
           <div class="promotion__price">
             <span class="promotion__old-price">Старая цена<br> $ 99</span>
             <span class="promotion__new-price">Новая цена<br> $ 49</span>
@@ -331,9 +342,11 @@
     </section>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
-  <script src="https://cdn.leadreaktor.com/script.js"></script>
+  <script src="https://cdn.leadreaktor.com/script.js"></script> -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="jquery.counterup.min.js"></script>
 </body>
 
 </html>
