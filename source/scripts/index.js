@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // init Swiper:
-  // configure Swiper to use modules
+// configure Swiper to use modules
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
@@ -16,17 +16,17 @@ const swiper = new Swiper('.swiper', {
   draggable: true,
 
   // If we need pagination
-  // pagination: {
-  //   enabled: true,
-  //   clickable: true,
-  //   type: 'bullets',
-  //   el: '.swiper-pagination',
-  // },
-
   pagination: {
-    el: ".swiper-pagination",
+    enabled: true,
     clickable: true,
+    type: 'bullets',
+    el: '.swiper-pagination',
   },
+
+  // pagination: {
+  //   el: '.swiper-pagination',
+  //   clickable: true,
+  // },
 
   // Navigation arrows
   navigation: {

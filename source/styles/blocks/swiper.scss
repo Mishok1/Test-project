@@ -1,7 +1,28 @@
 .swiper {
-  width: 320px;
+  width: 272px;
   height: 527px;
   border-radius: 10px;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.25);
   margin-bottom: 24px;
+}
+
+.swiper-slide {
+  width: 272px;
+  height: 527px;
+}
+
+.swiper-pagination {
+  bottom: 7px !important;
+  z-index: 100000000 !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #FFFFFF !important;
+  width: 16px !important;
+  height: 16px !important;
+  border: 1px solid #000000 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff3131 !important;
 }

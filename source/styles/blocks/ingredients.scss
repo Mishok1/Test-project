@@ -10,14 +10,18 @@
   text-align: center;
   margin: 0 auto;
   border-radius: 0 0 20px 20px;
+  position: relative;
 }
 
 .ingredients__image {
   border-radius: 50%;
   margin-top: -50%;
   margin-bottom: 30px;
-  width: 297px;
+  left: -10px;
+  min-width: 297px;
   height: 297px;
+  position: relative;
+
 }
 
 .ingredients__title {

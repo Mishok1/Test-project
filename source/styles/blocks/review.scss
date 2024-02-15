@@ -1,21 +1,27 @@
 .review {
   background-color: #ffffff;
   height: 527px;
+  width: 272px;
   font-family: "Futura 400", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 23px;
   text-align: center;
   padding: 17px 20px 26px;
+  // padding: ;
   position: relative;
-  display: grid;
-  grid-template-columns: 109px auto;
-  grid-template-rows: auto 25px;
-  column-gap: 23px;
-  row-gap: 20px;
+  // display: flex;
+  // row-gap: 20px;
+  position: relative;
 }
 
-.reviews__image {
+.review__header {
+  display: flex;
+  justify-content: right;
+  gap: 23px;
+}
+
+.review__image {
   position: absolute;
   top: 0;
   left: 0;
@@ -29,15 +35,15 @@
   line-height: 18px;
   text-align: left;
   color: #232e72;
-  grid-column: 2 / 3;
 }
 
-.review__icons {
-  grid-column: 2 / 3;
+.review__star-wrapper {
+  display: flex;
+  margin-top: 20px;
 }
 
 .review__text {
-  grid-column: 1 / 3;
+  margin-top: 50px;
 }
 
 .reviews__icons {
