@@ -31,3 +31,10 @@
   font-size: 42px;
   vertical-align: top;
 }
+
+.timer__wrapper {
+  display: flex;
+  // justify-content: space-around;
+  justify-content: center;
+  gap: 2px;
+}

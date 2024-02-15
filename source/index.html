@@ -21,21 +21,14 @@
         <article class="hero__promotion promotion">
           <h2 class="visually-hidden">Акция</h2>
           <p class="promotion__slogan">До конца акции в 50% осталось:</p>
-          <div class="promotion__timer timer">
-            <span class="hour">
-              <span class="num hour0">0</span>
-              <span class="num hour1">0</span>
-            </span>
-            <span class="timer-dot">:</span>
-            <span class="minute">
-              <span class="num min0">0</span>
-              <span class="num min1">0</span>
-            </span>
-            <span class="timer-dot">:</span>
-            <span class="second">
-              <span class="num sec0">0</span>
-              <span class="num sec1">0</span>
-            </span>
+          <div class="promotion__timer timer" id="clockdiv">
+            <div class="timer__wrapper">
+              <div id="hours"></div>
+              <span class="timer-dot">:</span>
+              <div id="minutes"></div>
+              <span class="timer-dot">:</span>
+              <div id="seconds"></div>
+            </div>
             <div class="timer-description">
               <span class="timer-text">часов</span>
               <span class="timer-text">МИНУТ</span>
@@ -289,20 +282,23 @@
           </p>
         </div>
         <img src="images/test-foto.png" width="331" height="360" alt="Micardin.">
-        <article class="reviews__promotion promotion">
+        <article class="hero__promotion promotion">
           <h2 class="visually-hidden">Акция</h2>
           <p class="promotion__slogan">До конца акции в 50% осталось:</p>
-          <div class="promotion__timer timer" id="clockdiv">
+          <div class="promotion__timer timer">
             <span class="hour">
-              <span class="num hour0 hours" id="hours">0</span>
+              <span class="num hour0">0</span>
+              <span class="num hour1">0</span>
             </span>
             <span class="timer-dot">:</span>
             <span class="minute">
-              <span class="num min0 minutes" id="minutes">0</span>
+              <span class="num min0">0</span>
+              <span class="num min1">0</span>
             </span>
             <span class="timer-dot">:</span>
             <span class="second">
-              <span class="num sec0 seconds" id="seconds">0</span>
+              <span class="num sec0">0</span>
+              <span class="num sec1">0</span>
             </span>
             <div class="timer-description">
               <span class="timer-text">часов</span>
@@ -310,20 +306,6 @@
               <span class="timer-text">СЕКУНД</span>
             </div>
           </div>
-          <!-- <div >
-            <div>
-              <span class="hours" ></span>
-              <div class="smalltext">Hours</div>
-            </div>
-            <div>
-              <span class="minutes" ></span>
-              <div class="smalltext">Minutes</div>
-            </div>
-            <div>
-              <span class="seconds" ></span>
-              <div class="smalltext">Seconds</div>
-            </div>
-          </div> -->
           <div class="promotion__price">
             <span class="promotion__old-price">Старая цена<br> $ 99</span>
             <span class="promotion__new-price">Новая цена<br> $ 49</span>
