@@ -1,11 +1,12 @@
 .reviews {
   background-color: #b9dfff;
   color: #232e72;
-  padding: 31px 0 0;
+  padding: 31px 0 29px;
 }
 
 .reviews__title {
   margin-bottom: 45px;
+  letter-spacing: 0;
 }
 
 .reviews__text {
@@ -20,6 +21,12 @@
   margin-bottom: 24px;
 }
 
+.reviews__wrapper {
+  background: radial-gradient(74.92% 74.92% at 50% 19.59%, #FFFFFF 20.31%, rgba(255, 255, 255, 0) 100%);
+  padding: 24px;
+  margin-top: -40px;
+}
+
 .reviews__wrapper-text {
   font-family: "Futura 600", sans-serif;
   font-size: 24px;
@@ -27,8 +34,13 @@
   line-height: 24px;
   text-align: center;
   color: rgba(35, 46, 114);
+  margin: 0;
 
   & span {
     color: rgba(255, 49, 49, 1);
   }
+}
+
+.reviews__promotion {
+  margin-top: -8px;
 }

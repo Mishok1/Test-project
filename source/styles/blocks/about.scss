@@ -4,20 +4,26 @@
 }
 
 .about__slogan {
-  font-family: "Futura 600", sans-serif;
+  font-family: "Futura 700", sans-serif;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 28px;
   color: #232e72;
-  text-align: center;
+  text-align: left;
+  margin: 0;
+
+  &:nth-of-type(2) {
+    text-align: center;
+    margin-bottom: 30px;
+  }
 }
 
 .about__important {
-  font-family: "Futura 600", sans-serif;
+  font-family: "Futura 700", sans-serif;
   font-size: 64px;
   line-height: 82px;
   color: #ff3131;
-  // text-shadow: 0 0 0 #ffffff;
+  font-weight: 700;
   -webkit-text-stroke: 1px #ffffff;
 }
 

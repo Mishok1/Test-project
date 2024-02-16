@@ -22,9 +22,15 @@
   font-weight: 400;
   line-height: 42px;
   color: #ffffff;
-  background: #da010a linear-gradient(180deg, #ff8280 0%, rgba(255, 255, 255, 0) 100%);
   border-radius: 5px;
   padding: 0 4px;
+  display: block;
+  background: linear-gradient(180deg, #FF8280 0%, #e4242c 50%, #BE0600 50%);
+}
+
+.timer-group {
+  display: flex;
+  gap: 4px;
 }
 
 .timer-dot {

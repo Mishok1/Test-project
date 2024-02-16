@@ -19,7 +19,6 @@
 }
 
 .advantages__title {
-  margin: 0;
   color: #232e72;
   font-family: "Futura 700", sans-serif;
   font-weight: 700;
@@ -28,6 +27,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  margin: 0 auto;
 
   &::before {
     content: "";
